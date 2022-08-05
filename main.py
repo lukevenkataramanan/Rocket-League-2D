@@ -3,7 +3,6 @@ from Game import Game
 import pygame
 
 if __name__ == '__main__':
-    print('Welcome, user.')
     pygame.display.set_caption("Rocket League 2D")  # set title of window
     game_window = pygame.display.set_mode((1440, 800))  # create full screen window
     ball_image = pygame.image.load('images/ball.png')
